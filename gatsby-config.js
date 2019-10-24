@@ -18,16 +18,20 @@ module.exports = {
         url: `https://www.linkedin.com/in/MartinBRosenberg/`,
       },
       {
+        name: `paypal`,
+        url: `https://paypal.me/MartinBRosenberg`,
+      },
+      {
+        name: `stackoverflow`,
+        url: `https://stackoverflow.com/users/2303326/martinrosenberg`,
+      },
+      {
         name: `twitter`,
         url: `https://twitter.com/Marty_Rosenberg`,
       },
-     // {
+      // {
       //   name: `reddit`,
       //   url: `https://www.reddit.com/user/MartinRosenberg`,
-      // },
-      // {
-      //   name: `stackoverflow`,
-      //   url: `https://stackoverflow.com/users/2303326/martinrosenberg`,
       // },
     ],
   },
