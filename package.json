@@ -1,12 +1,17 @@
 {
-  "private": true,
   "name": "site",
   "version": "1.0.0",
-  "license": "MIT",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "author": {
+    "name": "Martin Rosenberg",
+    "email": "Martin.B.Rosenberg@gmail.com",
+    "url": "https://martinbrosenberg.com"
+  },
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "dev": "gatsby develop"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
