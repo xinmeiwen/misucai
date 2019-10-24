@@ -1,43 +1,43 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Rosenblog`,
+    name: `Martin Rosenberg`,
+    siteUrl: `https://martinbrosenberg.com`,
+    description: `Martin Rosenberg's website and blog about tech and travel`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Hi. I'm Martin. Let's talk tech. Let's travel the world.`,
       maxWidth: 652,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
-      {
         name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://github.com/MartinRosenberg`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/MartinBRosenberg/`,
       },
       {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `twitter`,
+        url: `https://twitter.com/Marty_Rosenberg`,
       },
+     // {
+      //   name: `reddit`,
+      //   url: `https://www.reddit.com/user/MartinRosenberg`,
+      // },
+      // {
+      //   name: `stackoverflow`,
+      //   url: `https://stackoverflow.com/users/2303326/martinrosenberg`,
+      // },
     ],
   },
   plugins: [
     {
-      resolve: "@narative/gatsby-theme-novela",
+      resolve: `@narative/gatsby-theme-novela`,
       options: {
-        contentPosts: "content/posts",
-        contentAuthors: "content/authors",
-        basePath: "/",
+        contentPosts: `content/posts`,
+        contentAuthors: `content/authors`,
+        basePath: `/`,
         authorsPage: true,
         sources: {
           local: true,
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Rosenblog`,
+        short_name: `Rosenblog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,

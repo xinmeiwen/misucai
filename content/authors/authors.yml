@@ -1,17 +1,17 @@
-- name: Dennis Brotzky
+- name: Martin Rosenberg
   bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/dennis-brotzky.jpg
+    Written by Martin Rosenberg. Martin, Martin, he's our man, if he can't do it, great!
+  avatar: ./avatars/martin-rosenberg-1.png
   featured: true
   social:
     - name: github
-      url: https://github.com
-    - name: twitter
-      url: https://github.com
-    - name: instagram
-      url: https://github.com
-    - name: dribbble
-      url: https://github.com
+      url: https://github.com/MartinRosenberg
     - name: linkedin
-      url: https://github.com
+      url: https://www.linkedin.com/in/MartinBRosenberg/
+    - name: twitter
+      url: https://twitter.com/Marty_Rosenberg
+    # - name: reddit
+    #   url: https://www.reddit.com/user/MartinRosenberg
+    # - name: stackoverflow
+    #   url: https://stackoverflow.com/users/2303326/martinrosenberg
+

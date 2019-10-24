@@ -1,0 +1,94 @@
+---
+title: ES6 Modules
+author: Martin Rosenberg
+date: 2019-08-14
+# date: 2019-08-14T22:47Z
+hero: ./images/raphael-koh-92dgYPsir9k-unsplash.jpg
+excerpt: Basic recipes for imports and exports in ES6 modules
+# tags:
+#   - JavaScript
+#   - ECMAScript
+#   - tech
+#   - recipe
+---
+
+_[Photo] by [Raphael Koh] on [Unsplash]_
+
+[Photo]: https://unsplash.com/photos/92dgYPsir9k
+[Raphael Koh]: https://unsplash.com/@dreamevile?utm_source=unsplash&utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditCopyText
+[Unsplash]: https://unsplash.com/s/photos/modular?utm_source=unsplash&utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditCopyText
+
+Perhaps in the future, I'll go into a bit more detail, but for now, here are the basic recipes. Note that ES6 modules don't work (by default, for now) in Node, or in outdated browsers; you'll want to use Babel, TypeScript, or some other compiler to convert these to whichever module format you want (e.g. CommonJS for Node).
+
+## Exports
+
+### Named exports
+
+You can have as many named exports as you want, in any combination of formats.
+
+```js
+// Export a variable inline.
+export const isGreen = (color) => color === 'green'
+
+// Export a function declaration inline.
+export function isPink (color) { return color === 'pink' }
+
+// Export a class inline.
+export class LittleBox { /* ... */ }
+
+const blue = 'blue'
+function yellow () { return 'yellow' }
+class Hillside {}
+
+// Export at the bottom.
+export { blue, yellow, Hillside }
+```
+
+### Default exports
+
+You can only have (up to) one default export per file/module.
+
+```js
+// Export variable inline. This causes problems in debugging
+// because the variable has no name for stack traces.
+export default ({ profession }) => profession === 'doctor'
+
+// Export variable separately.
+const isDoctor = ({ profession }) => profession === 'doctor'
+export default isDoctor
+
+// Export function declaration inline. This causes the same
+// problems if you don't name the function.
+export default function ({ profession }) { return profession === 'lawyer' }
+export default function isLawyer ({ profession }) { return profession === 'lawyer' }
+
+// Export function declaration separately
+function isBusinessExecutive ({ profession }) { return profession === 'business executive' }
+export default isBusinessExecutive
+
+// Export class inline
+export default class Person { /* ... */ }
+
+// Export class separately
+class Person { /* ... */ }
+export Person
+```
+
+## Imports
+
+```js
+// import named exports
+import { isGreen, isRed } from './color-tests'
+​
+// import default export
+import isBlue from './color-tests'
+​
+// import both default and named exports
+import isBlue, { isGreen, isRed } from './color-tests'
+​
+// defaults have no specific names, just conventions
+import izBloo from './color-tests'
+​
+// named exports can be explicitly renamed
+import { isGreen as izGrene } from './color-tests'
+```
