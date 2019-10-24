@@ -1,0 +1,8 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+# See https://docs.netlify.com/routing/redirects/ for info
+
+# Redirect default Netlify subdomain to primary domain
+https://martinbrosenberg.netlify.com/* https://martinbrosenberg.com/:splat 301!
+
+# These extra rules are required because HTTPS is not forced
+http://martinbrosenberg.netlify.com/* https://martinbrosenberg.com/:splat 301!
