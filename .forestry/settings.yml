@@ -7,14 +7,13 @@ sections:
 - type: document
   path: content/authors/*
   label: authors
-  match: "**/*"
 - type: directory
   path: content/posts
   label: Posts
   create: all
   match: "*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: content/posts/uploads
+public_path: "./uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
