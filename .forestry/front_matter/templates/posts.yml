@@ -18,4 +18,5 @@ fields:
   name: excerpt
   label: excerpt
 pages:
+- content/posts/如何选择要学习的编程语言.md
 - content/posts/静态网站和jamstack入门指南.md
