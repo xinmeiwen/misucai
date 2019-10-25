@@ -17,3 +17,5 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+pages:
+- content/posts/静态网站和jamstack入门指南.md
