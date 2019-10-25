@@ -9,11 +9,7 @@ const Logo = () => (
   // <svg viewBox="0 0 106 28" height="30px">
   //   <text>Rosenblog</text>
   // </svg>
-  <span style={{
-    color: 'black',
-    fontSize: '2rem',
-    textDecoration: 'underline #f7c94b',
-  }}>
+  <span style={{ color: `black`, fontSize: `2rem`, textDecoration: `underline #f7c94b` }}>
     Rosenblog
   </span>
 )
