@@ -4,9 +4,9 @@
   "private": true,
   "license": "GPL-3.0-or-later",
   "author": {
-    "name": "Martin Rosenberg",
-    "email": "Martin.B.Rosenberg@gmail.com",
-    "url": "https://martinbrosenberg.com"
+    "name": "Frank",
+    "email": "misucai@gmail.com",
+    "url": "https://misucai.com"
   },
   "scripts": {
     "build": "gatsby build",
