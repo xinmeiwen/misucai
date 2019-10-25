@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `觅素材`,
-    name: `Martin Rosenberg`,
+    name: `Frank`,
     siteUrl: `https://misucai.com`,
     description: `介绍有关创建网站的最新信息。`,
     hero: {
