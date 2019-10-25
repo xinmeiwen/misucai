@@ -1,37 +1,37 @@
 module.exports = {
   siteMetadata: {
-    title: `Rosenblog`,
+    title: `觅素材`,
     name: `Martin Rosenberg`,
-    siteUrl: `https://martinbrosenberg.com`,
-    description: `Martin Rosenberg's website and blog about tech and travel`,
+    siteUrl: `https://misucai.com`,
+    description: `介绍有关创建网站的最新信息。`,
     hero: {
-      heading: `Hi. I'm Martin. Let's talk tech. Let's travel the world.`,
-      maxWidth: 652,
+      heading: `介绍有关创建网站的最新信息。`,
+      maxWidth: 752,
     },
     social: [
       {
         name: `github`,
-        url: `https://github.com/MartinRosenberg`,
+        url: `https://github.com/misucai`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/in/MartinBRosenberg/`,
+        url: `https://www.linkedin.com/in/misucai/`,
       },
       {
         name: `paypal`,
-        url: `https://paypal.me/MartinBRosenberg`,
+        url: `https://paypal.me/misucai`,
       },
       {
         name: `stackoverflow`,
-        url: `https://stackoverflow.com/users/2303326/martinrosenberg`,
+        url: `https://stackoverflow.com/users/2303326/misucai`,
       },
       {
         name: `twitter`,
-        url: `https://twitter.com/Marty_Rosenberg`,
+        url: `https://twitter.com/misucai`,
       },
       // {
       //   name: `reddit`,
-      //   url: `https://www.reddit.com/user/MartinRosenberg`,
+      //   url: `https://www.reddit.com/user/misucai`,
       // },
     ],
   },
