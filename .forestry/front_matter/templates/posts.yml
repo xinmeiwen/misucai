@@ -17,6 +17,11 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+- name: path
+  type: text
+  config:
+    required: false
+  label: path
 pages:
 - content/posts/静态网站和jamstack入门指南.md
 - content/posts/如何选择要学习的编程语言.md
