@@ -23,5 +23,6 @@ fields:
     required: false
   label: slug
 pages:
+- content/posts/10款国外免费网站在线监控网站状态服务工具.md
 - content/posts/静态网站和jamstack入门指南.md
 - content/posts/如何选择要学习的编程语言.md
