@@ -3,9 +3,9 @@ module.exports = {
     title: `觅素材`,
     name: `Frank`,
     siteUrl: `https://misucai.com`,
-    description: `介绍有关创建网站的最新信息。`,
+    description: `探索有关网站设计，代码和技术的想法。`,
     hero: {
-      heading: `介绍有关创建网站的最新信息。`,
+      heading: `探索有关网站设计，代码和技术的想法。`,
       maxWidth: 752,
     },
     social: [
